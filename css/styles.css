@@ -1,39 +1,21 @@
-.skill-row {
-    margin: 100px auto 100px auto;
-    width: 50%;
-    text-align: left;
-    line-height: 2;
-}
-
-img {}
-
 .span_it_div {
     text-decoration: underline;
 }
 
-.para_text {
-    color: #40514E;
-    width: 30%;
-    margin: auto;
-    margin-bottom: 2%;
-    line-height: 2;
-}
-
-.para_text2 {
-    width: 40%;
-    margin: 40px auto 40px auto;
-}
-
-.horizontal_line {
-    width: 5%;
-    color: #EAF6F6;
+hr {
+    width: 4%;
+    color: #adb3b3;
     height: 1%;
-    border-top: 8px dotted grey;
+    border-top: 6px dotted;
+    border-bottom: none;
+    /*remove below line*/
+    margin: 100px auto 100px auto;
 }
 
 body {
     margin: 0;
     text-align: center;
+    color: #40514E;
     font-family: 'Merriweather', serif;
 }
 
@@ -57,6 +39,39 @@ h2 {
 h3 {
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
+}
+
+.middle-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+p {
+    line-height: 2;
+}
+
+.intro {
+    color: #40514E;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+
+/*
+.skills {
+    margin-top: 100px;
+}*/
+
+.para_text2 {
+    width: 40%;
+    margin: 40px auto 40px auto;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
 }
 
 .skill1 {
@@ -106,7 +121,7 @@ a {
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: Arial;
+    font-family: 'Merriweather', serif;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
@@ -127,17 +142,25 @@ a {
     background-color: #66BFBF;
     height: 60px;
     /*text-align: center;*/
-    padding: 75px;
+    padding: 45px;
 }
 
 .footer-link {
     color: 11999E;
     text-decoration: none;
+    font-family: 'Merriweather', serif;
+    margin: 15px 10px 15px 10px;
+}
+
+a:hover {
+    color: #EAF6F6;
 }
 
 .footer-text {
     margin-top: 30px;
     color: #EAF6F6;
+    font-size: 0.75rem;
+    font-family: 'Merriweather', serif;
 }
 
 
